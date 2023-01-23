@@ -1,3 +1,29 @@
+# Assignment
+
+We have gotten a big gaming company as customer. The company is called ElectricGames and wants to be a new platform for games from different platforms (Xbox, Playstation, Nintendo Switch). They want a Web Api with a database which has information about Games and GameCharacters. They also want a frontend solution which makes use of the Web Api, and which is both informative and fun (possibly some quiz for example).
+
+A Game should at least have the following information:
+
+Id, Title, Platform (for example Playstation 5), ReleaseYear, Image
+A GameCharacter should at least have the following:
+
+Id, Name, Game (which game the character is from), Image
+In addition, they also want a HTML page in wwwroot which describes how to use the Web Api: which endpoints are available, how to use the endpoints, which information is available etc.
+
+The main functionality is based on that the Web Api has methods that do CRUD (Create, Read Update, and Delete) to the Database. The methods in the Web Api are used from the frontend through HTTP requests (GET, POST, PUT, DELETE). The main functionality in the Web Api is this:
+
+Get all of something
+Get something by id
+Get something by other property than id, for example GetByName
+Delete something
+Create something (including image upload)
+Update something
+The functionality in the frontend makes use of the above methods and in addition not the point about being informative and fun from the email “which is both informative and fun (possibly some quiz for example).” The amount of implemented functionality and the quality of the solution affects the grade.
+
+If you work 3 together you are expected to have both Game and GameCharacter and add a 3 rd model class. This is of course not obligatory but will affect the grade.
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
